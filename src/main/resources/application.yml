@@ -1,0 +1,11 @@
+server:
+  port: 81
+  servlet:
+    context-path: /
+
+spring:
+  profiles:
+    active: dev
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
