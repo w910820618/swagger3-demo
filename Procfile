@@ -1,1 +1,1 @@
-web: java -jar target/swagger3-demo-0.0.1-SNAPSHOT.jar
+web: java -jar -Dserver.port=$PORT target/swagger3-demo-0.0.1-SNAPSHOT.jar
