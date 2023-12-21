@@ -41,7 +41,7 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("Swagger3-Demo Interface documentation")
                 .description("Daily Programmer")
-                .contact(new Contact("Daily Programmer", "https://dailyprogrammer.net/", "wuzhouyang1994@gmail.com"))
+                .contact(new Contact("Github Repo", "https://github.com/w910820618/swagger3-demo", "wuzhouyang1994@gmail.com"))
                 .version("1.0")
                 .build();
     }
