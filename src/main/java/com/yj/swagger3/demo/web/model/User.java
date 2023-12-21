@@ -8,24 +8,24 @@ import lombok.experimental.Accessors;
 import java.io.Serializable;
 
 /**
- * 用户
+ * User
  *
- * @author DUCHONG
+ * @author Daily Programmer
  * @since 2020-10-24 16:19
  **/
 @Data
 @Accessors(chain = true)
-@ApiModel("用户接口返回队形")
+@ApiModel("The user interface returns the formation")
 public class User implements Serializable {
 
     private static final long serialVersionUID = -6184820859988580981L;
 
-    @ApiModelProperty(value = "主键id")
+    @ApiModelProperty(value = "Primary key ID")
     private Long id;
-    @ApiModelProperty(value = "用户名")
+    @ApiModelProperty(value = "Username")
     private String userName;
-    @ApiModelProperty(value = "手机号")
+    @ApiModelProperty(value = "Telephone")
     private String phone;
-    @ApiModelProperty(value = "地址")
+    @ApiModelProperty(value = "Address")
     private String address;
 }

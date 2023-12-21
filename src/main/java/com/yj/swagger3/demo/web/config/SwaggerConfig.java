@@ -14,9 +14,9 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
 /**
- * swagger配置类
+ * swagger Configure the class
  *
- * @author DUCHONG
+ * @author Daily Programmer
  * @since 2020-10-26 9:34
  **/
 @Configuration
@@ -39,9 +39,9 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Swagger3-Demo接口文档")
-                .description("技术支持-云嘉健康技术团队")
-                .contact(new Contact("云嘉健康技术团队", "http://www.yunjiacloud.com", "duchong@yunjiacloud.com "))
+                .title("Swagger3-Demo Interface documentation")
+                .description("Daily Programmer")
+                .contact(new Contact("Daily Programmer", "https://dailyprogrammer.net/", "wuzhouyang1994@gmail.com"))
                 .version("1.0")
                 .build();
     }

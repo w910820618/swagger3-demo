@@ -5,19 +5,19 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 /**
- * @author DUCHONG
+ * @author Daily Programmer
  * @since 2020-10-24 16:32
  **/
 @Data
-@ApiModel(value = "用户信息接口入参")
+@ApiModel(value = "Parameters are added to the user information interface")
 public class UserVO {
 
-    @ApiModelProperty(value = "主键id")
+    @ApiModelProperty(value = "Primary key ID")
     private Long id;
-    @ApiModelProperty(value = "用户名")
+    @ApiModelProperty(value = "Username")
     private String userName;
-    @ApiModelProperty(value = "手机号")
+    @ApiModelProperty(value = "Telephone")
     private String phone;
-    @ApiModelProperty(value = "地址")
+    @ApiModelProperty(value = "Address")
     private String address;
 }
