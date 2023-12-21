@@ -5,13 +5,4 @@ spring:
     password: sbdplhx9tqzueabw
     driver-class-name: com.mysql.cj.jdbc.Driver
 
-mybatis:
-  table:
-    auto: update
-  model:
-    pack: com.yj.swagger3.demo.domain
-  database:
-    type: mysql
 
-mybatis-plus:
-  mapper-locations: classpath:mapper/*.xml,classpath*:com/gitee/sunchenbin/mybatis/actable/mapping/*/*.xml
